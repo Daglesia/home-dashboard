@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="344" outlined>
+  <v-card class="mx-auto" max-width="344">
     <v-list-item three-line>
       <v-list-item-content>
         <div class="text-overline mb-4">STARTED AT {{ date }}</div>
@@ -63,5 +63,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>
